@@ -1,0 +1,42 @@
+
+@media screen and (max-width: 600px) {
+
+
+.homescreen{
+    
+
+    background-color: black;
+
+}
+
+.A-Z{
+    background-color: lightblue;
+
+}
+
+
+.Logga_in{
+
+}
+
+.Om_oss{
+
+
+}
+
+.TV{
+
+
+}
+
+}
+
+
+#main-menu{
+    visibility: hidden;
+}
+
+#main-menu.active {
+    visibility: visible;
+}   }
+
