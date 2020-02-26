@@ -5,13 +5,17 @@ body{
     font-family: fantasy;
 }
 
+nav nav ul a{
+    padding-right: 10px;
+}
+
 .homescreen{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 70px 40px 400px 400px;
     margin: 0px;
 
-    background-color: blueviolet;
+    background-color: white;
 
 }
 nav{
@@ -38,9 +42,22 @@ nav{
     
 }
 
+.logo_aftonbladet{
 
+    height: 30px;
+    width: auto;
+    display: inline;
+    align-items: center;
+    padding: 18px 0px 0px 10px;
+}
 
+.logo_logga_in{
 
+    display: inline;
+    width: auto;
+    height: 30px;
+    padding-left: 20px;
+}
 
 
 
