@@ -12,16 +12,12 @@ nav nav ul a{
 .homescreen{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 70px 40px 250px 10px 180px 10px 150px;
+    grid-template-rows: 70px 40px 250px 10px 180px 10px 124px;
     margin: 0px;
 
     background-color: whitesmoke;
 
 }
-nav{
-    background-color: red;
-}
-
 
 .home_header{
     grid-column-start: 1;
@@ -56,8 +52,9 @@ nav{
 
     display: inline;
     width: auto;
-    height: 30px;
-    padding-left: 30px;
+    height: 25px;
+    padding-right: 35px;
+    padding-top: 23px;
 }
 
 .article1{
@@ -67,6 +64,13 @@ nav{
     grid-column-end: 5;
     padding-top: 7px;
     background-color: white;
+}
+
+.top_text{
+    padding-top: 50px;
+    align-content: center;
+    text-align: center;
+    display: inline-block;
 }
 
 .text_under_img{
@@ -121,27 +125,46 @@ nav{
 
 
 
-.A-Z{
-    background-color: lightblue;
+.AZ{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 70px 40px 1px 67px 1000px;
+    margin: 0px;
 
+    background-color: whitesmoke;
 }
 
 
 .Logga_in{
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 70px 40px 5px 500px;
+    margin: 0px;
 
+    background-color: whitesmoke;
 }
 
 .Om_oss{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 70px 40px 500px;
+    margin: 0px;
 
+    background-color: whitesmoke;
 
 }
 
 .TV{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 70px 40px 5px 330px 330px 330px 330px;
+    margin: 0px;
 
+    background-color: whitesmoke;
 
 }
 
-#main-menu{
+.main-menu{
     position: absolute;
     background-color: white;
     overflow: auto;
@@ -153,7 +176,7 @@ nav{
     width: auto;
     
 }
-#menu-button{
+.menu-button{
     height: 40px;
     width: 100%;
     align-items: center;
@@ -164,9 +187,130 @@ nav{
 
 }
 
-#main-menu.active {
+.main-menu.active {
+    visibility: visible;
+}
+
+.menu-button2{
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    display: block;
+    padding-top: 9px;
+    text-align: center;
+    color: white;
+
+}
+
+.main-menu2.active {
     visibility: visible;
 }   
+
+.main-menu2{
+    position: absolute;
+    background-color: white;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 0px 12px 0px 12px;
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    
+}
+
+.menu-button3{
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    display: block;
+    padding-top: 9px;
+    text-align: center;
+    color: white;
+
+}
+
+.main-menu3.active {
+    visibility: visible;
+}   
+
+.main-menu3{
+    position: absolute;
+    background-color: white;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 0px 12px 0px 12px;
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    
+}
+
+.menu-button4{
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    display: block;
+    padding-top: 9px;
+    text-align: center;
+    color: white;
+
+}
+
+.main-menu4.active {
+    visibility: visible;
+}   
+
+.main-menu4{
+    position: absolute;
+    background-color: white;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 0px 12px 0px 12px;
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    
+}
+
+.menu-button5{
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    display: block;
+    padding-top: 9px;
+    text-align: center;
+    color: white;
+
+}
+
+.main-menu5.active {
+    visibility: visible;
+}   
+
+.main-menu5{
+    position: absolute;
+    background-color: white;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 0px 12px 0px 12px;
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    
+}
+
+.HEJ{
+    font-size: 1em;
+}
+
+.More_space{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
 
 .padding_left{
     padding-left: 0px;
@@ -177,40 +321,353 @@ nav{
     display: inline;
 }
 
+.nav_meny{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: red;
+}
 
+.pics{
+    width: 100%;
+    height: auto;
+}
+
+.Search{
+    grid-row: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;    
+}
+
+.ABC{
+    grid-row: 5;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.Big{
+    font-size: 2em;
+    margin: 13px 0px 13px 0px;
+}
+
+.Link{
+    font-size: 1em;
+    margin: 7px 4px 7px 4px;
+    display: inline-block;
+}
+
+.picsi{
+    width: 95%;
+    height: auto;
+
+}
+
+.ari1{
+    grid-row: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: white;  
+    text-align: center;
+}
+
+.ari2{
+    grid-row: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: white;  
+    text-align: center;
+}
+
+.ari4{
+    grid-row: 7;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: white;  
+    text-align: center;
+}
+
+.ari3{
+    grid-row: 6;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: white;  
+    text-align: center;
+}
 
 } /* Slutet på Mobil */
 
 @media screen and (min-width: 600px) {
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
-.homescreen{
+.AZ{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 100px 56.8px 15px 46.4px 15px 500px;
+    background-color: whitesmoke;
+
+}
+
+.Logga_in{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 100px 56.8px 15px 700px;
+    background-color: whitesmoke;
+}
+
+.Om_oss{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 400px 400px 400px 400px 400px
+    grid-template-rows: 100px 56.8px 15px 1000px;
+    background-color: whitesmoke;
+}
+
+.TV{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 100px 56.8px 15px 430px 500px;
+    background-color: whitesmoke;
+
+}
+.homescreen{
+    display: grid;
+    grid-template-columns: 32.5% 32.5% 35%;
+    grid-template-rows: 100px 56.8px 15px 350px 15px 350px 15px 273px ;
+    background-color: whitesmoke;
 }
 Body{
     margin: 8px 130px 8px 130px
 }
 nav{
     display: inline;
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
 }
 nav section{
     visibility: hidden;
 }
 
+.text_under_img{
+    text-align: center;
+    font-size: 1.5em;
+    padding: auto;
+}
+
+.home_header{
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 5; 
+    background-color: white;   
+
+}
 
 
 
+.logo_aftonbladet{
+    width: 580px;
+    height: auto; 
+}
+
+.logo_logga_in{
+    padding-right: 250px;
+    padding-top: 40px;
+
+}
+
+nav{
+    background-color: red;
+
+}
+
+nav nav ul a{
+    text-decoration: none;    
+    color: white;
+}
+
+.pics{
+    width: 100%;
+    height: auto;
+}
+
+.padding_left{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px
+}
+
+.article1{
+    grid-row: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 97%;
+    height: auto;
+    background-color: white;   
+}
+
+.ar{
+    grid-row: 8;
+    grid-column: 1;
+    width: 100%;
+    height: auto;
+    background-color: white;   
+}
+
+.ar1{
+    grid-row: 6;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 97%;
+    height: auto;
+    background-color: white;   
+}
+
+.ar2{
+    grid-row: 6;
+    grid-column: 3;
+    width: 100%;
+    height: auto;
+    background-color: white;   
+}
+
+.ar3{
+    grid-row: 8;
+    grid-column: 2;
+    width: 94%;
+    background-color: white;   
+}
+
+input[type=text] {
+    width: 700px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+
+}
+
+.Search{
+    grid-row: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;    
+}
+
+.ABC{
+    grid-row: 6;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.Big{
+    font-size: 3em;
+    margin: 13px 0px 13px 0px;
+}
+
+.Link{
+    font-size: 1.2em;
+    margin: 13px 7px 13px 7px;
+    display: inline-block;
+}
+
+.afton{
+    grid-row: 4;
 
 
+}
 
 
+.ari1{
+    grid-row: 4;
+    grid-column: 1;
+    background-color: white;  
+    text-align: center;
+}
+
+.ari2{
+    grid-row: 4;
+    grid-column: 2;
+    background-color: white;  
+    text-align: center;
+}
+
+.ari4{
+    grid-row: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: white;  
+    text-align: center;
+}
+
+.ari3{
+    grid-row: 4;
+    grid-column: 3;
+    background-color: white;  
+    text-align: center;
+}
 
 
+.top_text{
+    padding: 40px 50px 0px 50px;
+    align-content: center;
+    text-align: center;
+    display: inline-block;
+}
 
+.picsi{
+    width: 95%;
+    height: auto;
+
+}
 
 } /* Slut på desctop */
 
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
 
+  
+  
+  .container {
+    padding: 16px;
+  }
+  
+  .forgot {
+    float: right;
+    padding-top: 16px;
+  }
+  
+.Center{
+    grid-row: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
 
 
