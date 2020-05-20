@@ -66,6 +66,16 @@ nav nav ul a{
     background-color: white;
 }
 
+.ar5{
+    width: 100%;
+    height: auto;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row: 9;
+    padding-top: 7px;
+    background-color: white;
+}
+
 .top_text{
     padding-top: 50px;
     align-content: center;
@@ -78,7 +88,9 @@ nav nav ul a{
     margin: 5px;
     align-content: center;
     text-align: center;
-    display: inline-block;
+    display: inline;
+    vertical-align: middle;
+
 }
 
 .ar1{
@@ -394,6 +406,9 @@ nav nav ul a{
     text-align: center;
 }
 
+/*vertical-align: middle; */
+
+
 } /* Slutet på Mobil */
 
 @media screen and (min-width: 600px) {
@@ -452,7 +467,9 @@ nav section{
 .text_under_img{
     text-align: center;
     font-size: 1.5em;
-    padding: auto;
+    align-content: center;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .home_header{
@@ -536,6 +553,14 @@ nav nav ul a{
     grid-row: 8;
     grid-column: 2;
     width: 94%;
+    background-color: white   
+}
+
+.ar5{
+    grid-row: 4;
+    grid-column: 3;
+    width: 100%;
+    height: auto;
     background-color: white;   
 }
 
